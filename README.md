@@ -20,7 +20,7 @@
 ![GIF](movie20250109.gif)
 
 ## 動作確認
-- [URL](https://github.com/sanbunno-ichi/pymunk_de_pinball/index.html)
+- [URL](https://sanbunno-ichi.github.io/pymunk_de_pinball/)
 
 ## 更新履歴
 2025.01.09 公開
