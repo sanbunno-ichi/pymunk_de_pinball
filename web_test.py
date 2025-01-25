@@ -1,6 +1,6 @@
 import asyncio
 import micropip
-import os
+#import os
 
 #実行させたいファイルをここに定義
 from pymunk_de_pinball import App
@@ -27,12 +27,15 @@ async def main():
         print("Installing Pymunk...")
         #await micropip.install("pymunk-6.10.0-cp312-cp312-pyodide_2024_0_wasm32.whl")
         #→NG
-        #await micropip.install("https://sanbunno-ichi.github.io/pymunk_de_pinball/pymunk-6.10.0-cp312-cp312-pyodide_2024_0_wasm32.whl")
 
-        #カレントディレクトリの絶対パスを取得
-        path = os.getcwd()
-        print("path:",path)
-        await micropip.install(path + "/pymunk-6.10.0-cp312-cp312-pyodide_2024_0_wasm32.whl")
+        ##カレントディレクトリの絶対パスを取得
+        #path = os.getcwd()
+        #print("path:",path)
+        #await micropip.install(path + "/pymunk-6.10.0-cp312-cp312-pyodide_2024_0_wasm32.whl")
+        #→NG
+
+        await micropip.install("https://sanbunno-ichi.github.io/pymunk_de_pinball/pymunk-6.10.0-cp312-cp312-pyodide_2024_0_wasm32.whl")
+
         print("Pymunk installed successfully")
 
         # pymunkをインポート
