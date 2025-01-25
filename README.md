@@ -1,12 +1,4 @@
 # pymunk_de_pinball
-## 注釈
-Web版に関して：  
-1/23まで動作してましたが、1/24現在動作しなくなりました。  
-ダウンロードしてローカルで動かせば遊べます。  
-実行コマンド：pyxel play pymunk_de_pinball_a.pyxapp
-  
-ローカルで実行する場合にはpymunkをインストールする必要があります  
-pip install pymunk
   
 ## 概要
 - pymunkライブラリを使ったピンボールシミュレーター。
@@ -26,7 +18,7 @@ Aボタン、または、Zキーでショット
 Bボタン、または、XキーでPyxel Quit  
 
 ## スクリーンショット
-![SS](white_stage.png)
+![SS](white_stage.png)  
 ![SS](red_stage.png)
 
 ## GIFアニメ
@@ -36,4 +28,5 @@ Bボタン、または、XキーでPyxel Quit
 - [URL](https://sanbunno-ichi.github.io/pymunk_de_pinball/)
 
 ## 更新履歴
+2025.01.25 Web版動作しなかったのを改修  
 2025.01.09 公開
