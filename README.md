@@ -17,16 +17,5 @@
 Aボタン、または、Zキーでショット  
 Bボタン、または、XキーでPyxel Quit  
 
-## スクリーンショット
-![SS](white_stage.png)  
-![SS](red_stage.png)
-
-## GIFアニメ
-![GIF](movie20250109.gif)
-
-## 動作確認
-- [URL](https://sanbunno-ichi.github.io/pymunk_de_pinball/)
-
-## 更新履歴
-2025.01.25 Web版動作しなかったのを改修  
-2025.01.09 公開
+## Goto Pyxel Contents
+[Pyxel Contents](https://sanbunnoichi1962.web.fc2.com/pyxel_contents.html#pymunk_de_pinball)
